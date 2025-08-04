@@ -7,10 +7,20 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>Selamat Datang di Zona Game Tour</h1>
-  <p>Website undian turnamen bola kamu!</p>
-  <button onclick="undi()">Klik untuk Mengundi</button>
-  <div id="hasil"></div>
-  <script src="script.js"></script>
+  <div id="app">
+    <h1>Selamat Datang di Zona Game Tour</h1>
+    <button id="spinBtn">🎯 Klik untuk Undi</button>
+    <div id="result"></div>
+    <div id="winners">
+      <h3>Daftar Pemenang:</h3>
+      <ul id="winnerList"></ul>
+    </div>
+    <div id="toast"></div>
+    <div class="admin-link">
+      <a href="admin.html">🔐 Admin</a>
+    </div>
+  </div>
+  <script type="module" src="firebase.js"></script>
+  <script type="module" src="script.js"></script>
 </body>
 </html>

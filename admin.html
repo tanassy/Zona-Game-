@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zona Game Admin</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>Admin Dashboard</h2>
+    <div id="login-section">
+      <input type="password" id="adminPin" placeholder="Masukkan PIN Admin" />
+      <button onclick="checkPin()">Masuk</button>
+    </div>
+    <div id="dashboard" style="display:none">
+      <button onclick="tambahPeserta()">➕ Tambah Peserta</button>
+      <button onclick="resetSemua()">♻️ Reset Semua</button>
+      <ul id="log"></ul>
+    </div>
+  </div>
+  <script type="module" src="firebase.js"></script>
+  <script type="module" src="admin.js"></script>
+</body>
+</html>
