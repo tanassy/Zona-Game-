@@ -8,12 +8,13 @@ import {
 } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-auth.js";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAeg-8WgPYIvDWKkRCArttMoaeEdwPGBJ0",
-  authDomain: "zona-game-tour.firebaseapp.com",
-  projectId: "zona-game-tour",
-  storageBucket: "zona-game-tour.appspot.com",
-  messagingSenderId: "1008038779589",
-  appId: "1:1008038779589:web:bc69049f5d26a5ea8db8e4"
+  apiKey: "AIzaSyDpXGoEUzxsbrOcx0setbHqlnpTV9iatno",
+  authDomain: "undian-turnamen-bola.firebaseapp.com",
+  projectId: "undian-turnamen-bola",
+  storageBucket: "undian-turnamen-bola.appspot.com",
+  messagingSenderId: "384938435714",
+  appId: "1:384938435714:web:53be08a328c101e020c09b",
+  measurementId: "G-R62T6BZQ77"
 };
 
 const app = initializeApp(firebaseConfig);
